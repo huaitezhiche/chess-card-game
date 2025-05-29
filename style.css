@@ -1,0 +1,20 @@
+.skill-btn {
+    /* 确保无强制隐藏 */
+    display: none; /* 初始隐藏，由JS控制显示 */
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.skill-btn:hover {
+    background-color: #45a049;
+}
+
+.skill-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
